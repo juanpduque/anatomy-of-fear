@@ -1,0 +1,12 @@
+# pipeline artifacts
+pipeline/data/posters/
+pipeline/data/horror_movies.csv
+data/posters/
+*.pyc
+__pycache__/
+.DS_Store
+
+# keep the small outputs
+!pipeline/data/yearly.json
+!pipeline/data/posters.csv
+!pipeline/data/darkness_curve.png
